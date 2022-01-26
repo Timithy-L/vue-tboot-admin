@@ -1,0 +1,17 @@
+{
+  "name": "@admin/directives",
+  "version": "3.0.0-alpha.3",
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.d.js",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "pnpm rimraf node_modules"
+  },
+  "dependencies": {
+    "@admin/utils": "workspace:*",
+    "@admin/tokens": "workspace:*"
+  }
+}
